@@ -1785,11 +1785,12 @@ margin-left: 30px;
 }
 
 .for input{
-  border: 1px solid #999999 !important;
+ border: 1px solid #999999 !important;
  width: 90% !important;
  margin-top: 10px;
  color: black !important;
  border-radius: 4px;
+ background-color: white !important;
  height: 50px !important;
 }
 
@@ -1805,6 +1806,7 @@ margin-left: 30px;
 .for textarea{
   width: 90% !important;
   border-radius: 4px;
+  margin-top: 20px;
   border: 1px solid #999999 !important;
 }
 
