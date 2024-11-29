@@ -258,42 +258,24 @@ const ReadBlog = () => {
                        </div>
                 
 
-                {/* <div className='leave-acomment mt-5'>
+                <div className='leave-acomment'>
                     <h3 className='mt-5'>Leave a comment</h3>
-                      <div className='form-validation'>
-                  <Container className='mt-5'>
-                          <Form className='read-form'>
+                     
+                     <form className='for'> 
+                         <label >Name *</label><br></br>
+                         <input type='text'></input><br></br>
+                         <label >Email *</label><br></br>
+                         <input type='text'></input><br></br>
+                         <label >Phone number *</label><br></br>
+                         <input type='text'></input><br></br>
+                          <label >Message*</label><br></br>
+                         <textarea ></textarea>
+                          <Button style={{marginTop:'20px',padding:'8px',height:'60px',width:'200px'}}  variant="primary" type="submit">
+                              Send Message
+                            </Button>
+                     </form>
 
-
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                 <Form.Label style={{ color: "#999999",fontSize:'15px'}}>Name *</Form.Label>
-    
-                                 <Form.Control  id="inputs"  type="text" />
-                            
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                 <Form.Label style={{ color: "#999999",fontSize:'15px'}}>Email *</Form.Label>
-                              <Form.Control id='inputs' type="text" />
-                            </Form.Group>
- 
-                            
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                 <Form.Label style={{ color: "#999999",fontSize:'15px'}}>Website</Form.Label>
-                              <Form.Control id="inputs" type="text" />
-                            </Form.Group>
-                           <Form.Group className="mb-3" controlId="formBasicPassword">
-                                 <Form.Label style={{ color: "#999999",fontSize:'15px'}}>Message</Form.Label>
-                              <Form.Control id="inputs" as="textarea" rows={7} />
-                            </Form.Group>
-
-                              <Button style={{width:'160px',height:'60px'}} className='primary'>Post Comment</Button>
-                            
-                          </Form>
-                  </Container>
-
-               </div> 
-
-                </div> */}
+                 </div> 
 
                    </Col> 
 
@@ -421,7 +403,7 @@ const ReadBlog = () => {
 
                                  {/* footer*/}
 
-        <div className="footer" style={{position:'relative',top:'90px'}}>
+        <div className="footer" style={{position:'relative',top:'200px'}}>
         
         <div className="footer-center">
           <div className="footer-head">
